@@ -9,7 +9,7 @@
 - Spring Boot 4.1.0
 - Spring Web (REST API)
 - Spring Data JPA + Hibernate
-- H2 (in-memory база на время разработки; позже — PostgreSQL)
+- H2 (in-memory база на время разработки, после чего надо будет разобраться с PostgreSQL)
 - Lombok, Validation
 - Maven
 # Прогресс
