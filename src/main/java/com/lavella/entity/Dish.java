@@ -16,7 +16,7 @@ import lombok.Setter;
 @Entity //Штука чтобы создать entity
 @Getter // Геттер от Lombok
 @Setter // Сеттер от Lombok
-@Table(name="Dish") // объявил имя для таблицы
+@Table(name="dish") // объявил имя для таблицы
 public class Dish {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO) // чтоб АйДи генерировался сам по себе. Auto - чтобы сам разобрался как ему удобнее
