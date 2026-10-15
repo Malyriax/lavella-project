@@ -21,9 +21,9 @@ The main goal of a project is to learn the architecture, master OOP principles a
 
 ## Development Progress
 - [x] Project skeleton initialized and configured for local execution
-- [x] Implemented `Menu` and `Dish` JPA entities with relationships and enums (`DishType`)
-- [x] Created `DishRepository` using Spring Data JPA and derived query methods
-- [x] Implemented `DishService` (CRUD operations, availability toggle, custom queries)
+- [x] Implemented `Menu` and `Dish` JPA entities
+- [x] Created `DishRepository` using Spring Data JPA 
+- [x] Implemented `DishService` and its logic
 - [ ] Implement REST controllers (`DishController`)
 - [ ] Implement Order processing logic
 - [ ] Migrate from H2 to PostgreSQL
