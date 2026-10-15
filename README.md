@@ -1,6 +1,6 @@
 # La Vella — Cafeteria Order Management Backend
 
-> **Status:** 🚧 Active Development (Work In Progress) // most of the comments are temporarily in russian since it is the main language that is being used in our team (that currently consists of two people)
+**Status:** 🚧 Active Development (Work In Progress) // most of the comments are temporarily in russian since it is the main language that is being used in our team (that currently consists of two people)
 
 ## About the Project
 **La Vella** is an educational pet project created to explore backend engineering with Spring Boot. The point is to simulate the optimised system for our favourite, but highly inefficient cafeteria "La Vella" at our campus **ETSINF** at **UPV (Universitat Politècnica de València)**.
