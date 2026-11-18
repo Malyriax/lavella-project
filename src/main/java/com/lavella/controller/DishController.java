@@ -2,7 +2,6 @@ package com.lavella.controller;
 
 import com.lavella.entity.Dish;
 import com.lavella.entity.DishType;
-import com.lavella.repository.DishRepository;
 import com.lavella.service.DishService;
 
 import org.springframework.http.HttpStatus;
