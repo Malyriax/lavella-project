@@ -25,9 +25,9 @@ public class OrderItem {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "dish_id", referencedColumnName = "id", nullable = false)
     private Dish dish;
-    // @ManyToOne(fetch = FetchType.LAZY)
-    // @JoinColumn(name = "order_id", referencedColumnName = "id", nullable = false)
-    // private Order order;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "order_id", referencedColumnName = "id", nullable = false)
+    private Order order;
     @Column(nullable = false)
     private BigDecimal priceAtOrder;
 
