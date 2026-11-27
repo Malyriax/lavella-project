@@ -43,7 +43,7 @@ public class DishService {
     }
 
     public Dish getDishById(Long id) {
-        return dishRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("DishNotFound"));
+        return dishRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Dish", id));
         // тут сложно, советую отдельно почитать про обертку Optional и как она
         // работает, в комментарий не уместить
     }
