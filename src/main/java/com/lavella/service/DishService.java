@@ -3,6 +3,7 @@ package com.lavella.service;
 import com.lavella.repository.DishRepository;
 import com.lavella.entity.Dish;
 import com.lavella.entity.DishType;
+import com.lavella.exception.ResourceNotFoundException;
 
 import org.springframework.stereotype.Service;
 
@@ -42,7 +43,7 @@ public class DishService {
     }
 
     public Dish getDishById(Long id) {
-        return dishRepository.findById(id).orElseThrow(() -> new RuntimeException("DishNotFound"));
+        return dishRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("DishNotFound"));
         // тут сложно, советую отдельно почитать про обертку Optional и как она
         // работает, в комментарий не уместить
     }
